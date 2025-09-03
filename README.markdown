@@ -2,7 +2,7 @@
 
 Welcome to the Velocity-Time Graph Quiz, a simple web-based interactive tool designed to help users practice plotting and understanding velocity-time graphs. This project allows users to select points on a graph to create their own velocity-time curve and compare it with a randomly generated correct answer.
 
-- **Demo**: https://mãsiêu.vn/github/velocity-time-graph-quiz[](https://xn--msiu-goa8b.vn/github/velocity-time-graph-quiz)
+- **Demo**: https://xn--msiu-goa8b.vn/github/velocity-time-graph-quiz
 - **Date**: September 03, 2025
 
 ## Features
@@ -48,4 +48,5 @@ This project is open-source and available under the MIT License (LICENSE).
 
 ## Contact
 For questions or feedback, please reach out to the author:
-- GitHub: lemasieu[](https://github.com/lemasieu)
+
+- GitHub: https://github.com/lemasieu
