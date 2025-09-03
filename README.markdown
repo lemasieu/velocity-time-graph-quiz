@@ -21,13 +21,13 @@ Welcome to the Velocity-Time Graph Quiz, a simple web-based interactive tool des
 
 ## Installation
 1. Clone the repository:
-   '''bash
+   ```bash
    git clone https://github.com/lemasieu/velocity-time-graph-quiz.git
-   '''
+   ```
 3. Navigate to the project directory:
-   '''bash
+   ```bash
    cd velocity-time-graph-quiz
-   '''
+   ```
 4. Open index.html in a web browser to start using the application. No additional setup or server is required as it runs locally.
 
 ## Usage
@@ -52,4 +52,5 @@ This project is open-source and available under the MIT License (LICENSE).
 For questions or feedback, please reach out to the author:
 
 - GitHub: https://github.com/lemasieu
+
 
