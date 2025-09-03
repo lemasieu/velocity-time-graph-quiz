@@ -23,10 +23,12 @@ Welcome to the Velocity-Time Graph Quiz, a simple web-based interactive tool des
 1. Clone the repository:
    '''bash
    git clone https://github.com/lemasieu/velocity-time-graph-quiz.git
-2. Navigate to the project directory:
+   '''
+3. Navigate to the project directory:
    '''bash
    cd velocity-time-graph-quiz
-3. Open index.html in a web browser to start using the application. No additional setup or server is required as it runs locally.
+   '''
+4. Open index.html in a web browser to start using the application. No additional setup or server is required as it runs locally.
 
 ## Usage
 1. Generate Data: Click "Tạo dữ liệu mới" (Generate New Data) to create a random velocity-time dataset. The table on the left will display the correct data points.
@@ -50,3 +52,4 @@ This project is open-source and available under the MIT License (LICENSE).
 For questions or feedback, please reach out to the author:
 
 - GitHub: https://github.com/lemasieu
+
