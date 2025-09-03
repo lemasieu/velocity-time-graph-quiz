@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đồ thị Vận tốc - Thời gian</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="left-panel">
+        <h2>Dữ liệu</h2>
+        <button onclick="generateRandomData()">Tạo dữ liệu mới</button>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Thời gian (s)</th>
+                    <th>Quãng đường (m)</th>
+                </tr>
+            </thead>
+            <tbody id="data-body"></tbody>
+        </table>
+        <p id="instructions">Hướng dẫn: Điểm (0,0) đã được chọn sẵn. Chọn thêm 5 điểm (tại t = 1, 2, 3, 4, 5) trên đồ thị để vẽ đường của bạn. Hệ thống sẽ tự động nối và đánh giá khi đủ. Nhấn "Hiện/Ẩn dữ liệu gốc" để xem đáp án sau khi thử.</p>
+    </div>
+    <div id="right-panel">
+        <h2>Đồ thị</h2>
+        <button id="toggleButton" onclick="toggleOriginalData()" style="display: none;">Hiện/Ẩn dữ liệu gốc</button>
+        <button onclick="resetPoints()">Xóa điểm</button>
+        <canvas id="myChart"></canvas>
+        <p id="feedback"></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
